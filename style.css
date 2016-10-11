@@ -62,11 +62,17 @@ nav.navbar.shrink {
     text-align: center;
 }
 .rooms-info-list{
-    text-align: left;
+    text-align: center;
+    display: inline-block;
 }
 .rooms-info-list ul{
     display: inline-block;
+    text-align: left;
     list-style-type: none;
+    font-size: 24px;
+}
+.rooms-info-list li{
+    margin:5px;
 }
 .rooms-info-list ul li img{
     width: 28px;
@@ -74,6 +80,21 @@ nav.navbar.shrink {
 }
 #map{
     background-color: whitesmoke;
+}
+#price-and-contacts{
+    background-color: white;
+    padding-left: 50px;
+    padding-right: 50px;
+
+}
+.price-contacts-field{
+    display: inline-block;
+    vertical-align: top;
+    width: 49%;
+}
+
+#contacts img{
+    width: 20px;
 }
 
 
@@ -84,7 +105,7 @@ nav.navbar.shrink {
     z-index: -1;
     position: fixed;
     right: auto;
-    top: 50px;
+    top: -50px;
     bottom: auto;
 }
 
