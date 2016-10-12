@@ -7,14 +7,14 @@
     padding-bottom: 50px;
 }
 
-nav.navbar {
+.navbar {
     background-color: #ccc;
 / / Animation -webkit-transition: all 0.4 s ease;
     transition: all 0.4s ease;
 }
 
-nav.navbar.shrink {
-    min-height: 5px;
+nav.shrink {
+    height: 5px;
 }
 
 #main {
@@ -97,6 +97,10 @@ nav.navbar.shrink {
     width: 20px;
 }
 
+footer{
+    background-color:dimgrey;
+    height: 200px;
+}
 
 
 #static-img {
