@@ -21,11 +21,17 @@ body {
 
 nav.navbar {
     display: inline-block;
-    background-color: #ccc;
+    background-color: rgba(88,88,88,.5);
 / / Animation -webkit-transition: all 0.4 s ease;
     transition: all 0.4s ease;
     text-align: center;
     height: 75px;
+    font-size: 21px;
+}
+nav.navbar li :hover{
+    background-color: transparent;
+    border: 1px solid whitesmoke;
+    border-radius: 5px;
     font-size: 21px;
 }
 
@@ -39,25 +45,38 @@ nav.shrink ul {
 }
 
 #info {
+    color: whitesmoke;
     background-color: black;
     border: 1px solid red;
     text-align: center;
+    width: 100%;
 }
 
 #info img {
-    width: 200px;
+    width: 100px;
+    height: auto;
     display: inline-block;
-    border: 1px solid red;
+    border: 1px solid whitesmoke;
     border-top-left-radius: 50px;
     border-bottom-right-radius: 50px;
 }
 
 #info p {
     display: inline-block;
+    text-align: center;
 }
 
-.info-container div {
+.info-container {
     display: inline-block;
+    height: 200px;
+    width: 49%;
+    vertical-align: middle;
+}
+#left-container{
+    text-align: right;
+}
+#right-container{
+    text-align: left;
 }
 
 #gallery {
@@ -119,6 +138,9 @@ nav.shrink ul {
 footer {
     background-color: dimgrey;
     height: 200px;
+}
+a{
+    color:white;
 }
 
 
