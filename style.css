@@ -1,20 +1,24 @@
-#container {
-    margin-top: 50px;
-    font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
-}
-#container > div{
-    padding-top: 50px;
-    padding-bottom: 50px;
+body {
+    padding: 0px;
+    margin: 0px;
+    background-color: #fff;
+    font-family: helvetica, arial, verdana, sans-serif
 }
 
-#nav-menu{
+#container {
+    font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
+}
+
+#nav-menu {
     float: right;
     height: 100%;
 }
-#navbar-header{
+
+#navbar-header {
     margin: 0px;
     height: 100%;
 }
+
 nav.navbar {
     display: inline-block;
     background-color: #ccc;
@@ -27,105 +31,94 @@ nav.navbar {
 
 nav.shrink {
     height: 50px;
-    font-size:14px;
+    font-size: 14px;
 }
-nav.shrink ul{
+
+nav.shrink ul {
     height: 100%;
 }
 
-#main {
-    margin-top: 20px;
-    height: 800px;
-}
-
-.main-content {
-    font-size: 54px;
-    color: whitesmoke;
-    text-align: center;
-    position: relative;
-    top: 40%;
-}
-#info{
+#info {
     background-color: black;
     border: 1px solid red;
     text-align: center;
 }
 
-#info img{
+#info img {
     width: 200px;
     display: inline-block;
     border: 1px solid red;
     border-top-left-radius: 50px;
     border-bottom-right-radius: 50px;
 }
-#info p{
-    display: inline-block;
-}
-.info-container div{
+
+#info p {
     display: inline-block;
 }
 
+.info-container div {
+    display: inline-block;
+}
 
 #gallery {
     background-color: whitesmoke;
 }
-#gallery div{
+
+#gallery div {
     width: 60%;
     text-align: center;
 }
-#rooms{
+
+#rooms {
     background-color: white;
     text-align: center;
 }
-.rooms-info-list{
+
+.rooms-info-list {
     text-align: center;
     display: inline-block;
 }
-.rooms-info-list ul{
+
+.rooms-info-list ul {
     display: inline-block;
     text-align: left;
     list-style-type: none;
     font-size: 24px;
 }
-.rooms-info-list li{
-    margin:5px;
+
+.rooms-info-list li {
+    margin: 5px;
 }
-.rooms-info-list ul li img{
+
+.rooms-info-list ul li img {
     width: 28px;
-    height:auto;
+    height: auto;
 }
-#map{
+
+#map {
     background-color: whitesmoke;
 }
-#price-and-contacts{
+
+#price-and-contacts {
     background-color: white;
     padding-left: 50px;
     padding-right: 50px;
 
 }
-.price-contacts-field{
+
+.price-contacts-field {
     display: inline-block;
     vertical-align: top;
     width: 49%;
 }
 
-#contacts img{
+#contacts img {
     width: 20px;
 }
 
-footer{
-    background-color:dimgrey;
+footer {
+    background-color: dimgrey;
     height: 200px;
 }
 
-
-#static-img {
-    width: 100%;
-    height: auto;
-    z-index: -1;
-    position: fixed;
-    right: auto;
-    top: -50px;
-    bottom: auto;
-}
 
