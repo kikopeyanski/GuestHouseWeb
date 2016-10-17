@@ -7,14 +7,30 @@
     padding-bottom: 50px;
 }
 
-.navbar {
+#nav-menu{
+    float: right;
+    height: 100%;
+}
+#navbar-header{
+    margin: 0px;
+    height: 100%;
+}
+nav.navbar {
+    display: inline-block;
     background-color: #ccc;
 / / Animation -webkit-transition: all 0.4 s ease;
     transition: all 0.4s ease;
+    text-align: center;
+    height: 75px;
+    font-size: 21px;
 }
 
 nav.shrink {
-    height: 5px;
+    height: 50px;
+    font-size:14px;
+}
+nav.shrink ul{
+    height: 100%;
 }
 
 #main {
