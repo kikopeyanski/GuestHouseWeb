@@ -45,30 +45,34 @@ nav.shrink ul {
 }
 
 #info {
-    color: whitesmoke;
-    background-color: black;
+    color: black;
+    background-color: #fffff0;
     border: 1px solid red;
     text-align: center;
     width: 100%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+#info h1{
+    font-size: 2vw;
 }
 
 #info img {
-    width: 100px;
-    height: auto;
+    width: 250px;
+    height: 250px;
     display: inline-block;
     border: 1px solid whitesmoke;
-    border-top-left-radius: 50px;
-    border-bottom-right-radius: 50px;
+    border-radius: 50%;
 }
 
-#info p {
+#info .description {
+    width: 50%;
     display: inline-block;
     text-align: center;
+    font-size: 1.5vw;
 }
-
 .info-container {
     display: inline-block;
-    height: 200px;
     width: 49%;
     vertical-align: middle;
 }
