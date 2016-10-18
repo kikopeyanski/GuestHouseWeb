@@ -46,8 +46,8 @@ nav.shrink ul {
 
 #info {
     color: black;
-    background-color: #fffff0;
-    border: 1px solid red;
+    background-color: whitesmoke;
+    border: 1px solid rgba(66,244,122,1);
     text-align: center;
     width: 100%;
     padding-top: 20px;
@@ -83,8 +83,10 @@ nav.shrink ul {
     text-align: left;
 }
 
+
 #rooms {
-    background-color: white;
+    padding: 100px;
+    background-color: whitesmoke;
     text-align: center;
 }
 
@@ -130,6 +132,14 @@ nav.shrink ul {
     width: 20px;
 }
 
+
+#static-image{
+    z-index: -1;
+    position: fixed;
+    top: 0px;
+    width: 100%;
+    filter: blur(5px);
+}
 footer {
     background-color: dimgrey;
     height: 200px;
