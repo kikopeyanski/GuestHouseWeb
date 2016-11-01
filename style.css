@@ -15,45 +15,81 @@ body {
 }
 
 #navbar-header {
-    margin: 0px;
-    height: 100%;
+    margin: auto;
+    display: inline-block;
+    font-size: 2vw;
+    width: 20%;
+    height: auto;
 }
 
 nav.navbar {
     display: inline-block;
-    background-color: rgba(88,88,88,.5);
+    background-color: rgba(255,255,255,0.8);
 / / Animation -webkit-transition: all 0.4 s ease;
     transition: all 0.4s ease;
     text-align: center;
     height: 75px;
-    font-size: 21px;
+    font-size: 1.5vw;
+    border-bottom: 1px solid black;
 }
-nav.navbar li :hover{
-    background-color: transparent;
-    border: 1px solid whitesmoke;
-    border-radius: 5px;
-    font-size: 21px;
+
+nav.navbar li :hover {
+    text-decoration: none;
+    background-color: forestgreen;
+    border-left: 1px solid whitesmoke;
+    border-right: 1px solid whitesmoke;
+    color: white;
+}
+nav.navbar li a{
+    color: black;
+    height: 100%;
+    padding: 1em 1em;
+}
+
+.navbar-body ul li {
+    text-align: right;
+    height: 100%;
+}
+
+
+.navbar-body ul {
+    height: 100%;
 }
 
 nav.shrink {
     height: 50px;
-    font-size: 14px;
+    font-size: 1.2vw;
+    background-color: white;
 }
 
 nav.shrink ul {
     height: 100%;
 }
 
+nav.shrink ul li {
+    font-size: 1vw;
+    height: 100%;
+    display: inline-block;
+
+}
+
+.navbar-body {
+    display: inline-block;
+    float: right;
+    width: 79%;
+    height: 100%;
+}
+
 #info {
     color: black;
     background-color: whitesmoke;
-    border: 1px solid rgba(66,244,122,1);
     text-align: center;
     width: 100%;
     padding-top: 20px;
     padding-bottom: 20px;
 }
-#info h1{
+
+#info h1 {
     font-size: 2vw;
 }
 
@@ -71,18 +107,79 @@ nav.shrink ul {
     text-align: center;
     font-size: 1.5vw;
 }
+
 .info-container {
     display: inline-block;
     width: 49%;
     vertical-align: middle;
 }
-#left-container{
+
+#left-container {
     text-align: right;
 }
-#right-container{
+
+#right-container {
     text-align: left;
 }
+#rooms button{
+    display: inline-block;
+    width: 200px;
+    margin-bottom:50px;
+    padding: 10px;
+    background-color: skyblue;
+    color: whitesmoke;
+    border: 1px solid white;
+    border-radius: 5px;
+}
+.house{
+    width: 100%;
+    background-color: whitesmoke;
+    color: black;
+    padding: 4vh 2vh;
+    height: 100%;
+}
+.houses-info{
+    display: inline-block;
+    width: 54%;
+    text-align: center;
+    height:100%;
+}
+.houses-info hr {
+    height: 1px;
+    width: 80%;
+    border: 0;
+    border-top: 1px solid forestgreen;
+}
+.house img{
+    width: 44%;
+    height: auto;
+    display: inline-block;
+    border: 1px solid whitesmoke;
+    border-radius: 5px;
+    vertical-align: top;
+}
+.house p{
+    font-size: 1.33vw;
+    vertical-align: middle;
+    font-style: italic;
+    display: inline-block;
+    text-align: center;
+}
 
+.thumbnails{
+    display: inline-block;
+    text-align: center;
+    background-color: black;
+    border: 1px solid ghostwhite;
+    border-radius: 5px;
+    vertical-align: baseline;
+    height: 50%;
+}
+.thumbnails img{
+    width: 15%;
+    display: inline-block;
+    border: none;
+}
 
 #rooms {
     padding: 100px;
@@ -132,20 +229,21 @@ nav.shrink ul {
     width: 20px;
 }
 
-
-#static-image{
+#static-image {
     z-index: -1;
     position: fixed;
     top: 0px;
     width: 100%;
     filter: blur(5px);
 }
+
 footer {
     background-color: dimgrey;
     height: 200px;
 }
-a{
-    color:white;
+
+a {
+    color: white;
 }
 
 
