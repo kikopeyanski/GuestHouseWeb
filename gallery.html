@@ -4,263 +4,83 @@
     <meta charset="UTF-8">
     <title>Guest House Tarpovi</title>
     <link rel="stylesheet" href="Utils/bootstrap-3.3.7-dist/css/bootstrap.css"/>
-    <link rel="stylesheet" href="style.css"/>
     <link rel="stylesheet" href="gallery.css"/>
 
-
     <script src="Utils/jquery-3.1.1.min.js"></script>
-    <script src="app.js"></script>
-    <script src="js/jssor.slider-21.1.6.mini.js" type="text/javascript"></script>
-    <script src="gallery.js" type="text/javascript"></script>
 
 </head>
 <body>
 <div id="container">
-    <nav class="navbar navbar-default navbar-fixed-top">
-        <div class="container">
-            <a class="navbar-brand" href="#">Guest House Tarpovi</a>
-
-            <ul class="nav navbar-nav" id="nav-menu">
-                <li class="active"><a href="#">Начало <span class="sr-only">(current)</span></a></li>
-                <li><a href="#">Удобства</a></li>
-                <li><a href="#">Галерия</a></li>
-                <li><a href="#">Обзавеждане</a></li>
-                <li><a href="#">Карта</a></li>
-                <li><a href="#">Цени и контакти</a></li>
-            </ul>
-        </div>
-    </nav>
-    <!-- <nav class="navbar navbar-fixed-top" role="navigation">
-
-         <div class="navbar navbar-header" id="navbar-header">
-             <a class="navbar-brand" href="#">Guest House Tarpovi</a>
-         </div>
-         <div class="navbar-body">
-             <ul class="nav navbar-nav" id="nav-menu">
-                 <li class="active"><a href="#">Начало <span class="sr-only">(current)</span></a></li>
-                 <li><a href="#">Удобства</a></li>
-                 <li><a href="#">Галерия</a></li>
-                 <li><a href="#">Обзавеждане</a></li>
-                 <li><a href="#">Карта</a></li>
-                 <li><a href="#">Цени и контакти</a></li>
-             </ul>
-         </div>
-     </nav>
-     -->
-    <div id="jssor_1"
-         style="position: relative; margin: 0 auto; top: 0px; left: 0px; width: 1000px; height: 500px; overflow: hidden; visibility: hidden;">
-        <!-- Loading Screen -->
-        <div data-u="loading" style="position: absolute; top: 0px; left: 0px;">
-            <div style="filter: alpha(opacity=70); opacity: 0.7; position: absolute; display: block; top: 0px; left: 0px; width: 100%; height: 100%;"></div>
-            <div style="position:absolute;display:block;background:url('img/loading.gif') no-repeat center center;top:0px;left:0px;width:100%;height:100%;"></div>
-        </div>
-        <div data-u="slides"
-             style="cursor: default; position: relative; top: 0px; left: 0px; width: 1000px; height: 500px; overflow: hidden;">
-            <div data-p="600.0" style="background-color: rgba(0,0,0,0.5);">
-                <img data-u="image" src="img/second.jpg"/>
-                <div style="position: absolute; top: 182px; left: 293px; width: 540px; height: 120px; font-family: Century Gothic; font-size: 50px; color: #ffffff; line-height: 60px;">
-                    Tarpovi Guest House
-                    <br/>
-                    <h5 style="text-align: right">"...Най-доброто място за отдих"</h5>
-                </div>
-            </div>
-            <div data-p="600.0" style="display: none;">
-                <img data-u="image" src="img/guest-house-background.jpg"/>
-            </div>
-            <div data-p="600.0" style="display: none;">
-                <img data-u="image" src="img/first.jpg"/>
-            </div>
-        </div>
-        <!-- Bullet Navigator -->
-        <div data-u="navigator" class="jssorb05" style="bottom:16px;right:16px;" data-autocenter="1">
-            <!-- bullet navigator item prototype -->
-            <div data-u="prototype" style="width:16px;height:16px;"></div>
-        </div>
-        <!-- Arrow Navigator -->
-        <span data-u="arrowleft" class="jssora22l" style="top:0px;left:8px;width:40px;height:58px;"
-              data-autocenter="2"></span>
-        <span data-u="arrowright" class="jssora22r" style="top:0px;right:8px;width:40px;height:58px;"
-              data-autocenter="2"></span>
+    <div class="navigation">
+        <a href="index.html">
+            <img src="Gallery/left-xxl.png"/>
+        </a>
+        <h1 href="#">Guest House Tarpovi</h1>
     </div>
+    <div class="house-selection">
+        <button id="house1-button">Горната къщичка</button>
+        <button id="house2-button">Долната къщичка</button>
+    </div>
+    <div class="gallery">
+        <div id="house1" class="house invisible">
+            <div class="houses-info">
+                <h1>Горната Къщичка</h1>
+                <hr/>
+                <p>"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cumque, eius, incidunt! Ab assumenda atque
+                    autem commodi earum explicabo hic itaque iure minus molestiae non, odit optio quasi rem tempore
+                    vel?"
+                </p>
 
-
-    <div id="jssor_2"
-         style="position: relative; margin: 0 auto; top: 0px; left: 0px; width: 800px; height: 550px; overflow: hidden; visibility: hidden; background-color: #24262e;">
-
-        <!-- Loading Screen -->
-        <div data-u="loading" style="position: absolute; top: 0px; left: 0px;">
-            <div style="filter: alpha(opacity=70); opacity: 0.7; position: absolute; display: block; top: 0px; left: 0px; width: 100%; height: 100%;"></div>
-            <div style="position:absolute;display:block;background:url('img/loading.gif') no-repeat center center;top:0px;left:0px;width:100%;height:100%;"></div>
-        </div>
-        <div data-u="slides"
-             style="cursor: default; position: relative; top: 0px; left: 0px; width: 800px; height: 465px; overflow: hidden;">
-            <div data-p="158.125">
-                <img data-u="image" src="img/dsc01933.jpg"/>
-                <img data-u="thumb" src="img/dsc01933.jpg"/>
-            </div>
-            <div data-p="158.125" style="display: none;">
-                <img data-u="image" src="img/dsc01936.jpg"/>
-                <img data-u="thumb" src="img/dsc01936.jpg"/>
-            </div>
-            <div data-p="158.125" style="display: none;">
-                <img data-u="image" src="img/f66v1481.jpg"/>
-                <img data-u="thumb" src="img/f66v1481.jpg"/>
-            </div>
-            <div data-p="158.125" style="display: none;">
-                <img data-u="image" src="img/f66v1483.jpg"/>
-                <img data-u="thumb" src="img/f66v1483.jpg"/>
-            </div>
-            <div data-p="759.0" style="display: none; background-color: rgba(255,255,255,0);">
-                <img data-u="image" src="img/f66v1490.jpg"/>
-                <img data-u="thumb" src="img/f66v1490.jpg"/>
-            </div>
-            <div data-p="158.125" style="display: none;">
-                <img data-u="image" src="img/f66v1687.jpg"/>
-                <img data-u="thumb" src="img/f66v1687.jpg"/>
-            </div>
-            <div data-p="158.125" style="display: none;">
-                <img data-u="image" src="img/f66v1688.jpg"/>
-                <img data-u="thumb" src="img/f66v1688.jpg"/>
-            </div>
-            <div data-p="158.125" style="display: none;">
-                <img data-u="image" src="img/f66v1496.jpg"/>
-                <img data-u="thumb" src="img/f66v1496.jpg"/>
-            </div>
-            <div data-p="158.125" style="display: none;">
-                <img data-u="image" src="img/f66v1498_1.jpg"/>
-                <img data-u="thumb" src="img/f66v1498_1.jpg"/>
-            </div>
-            <div data-p="158.125" style="display: none;">
-                <img data-u="image" src="img/f66v1503_4_5_tonemapped.jpg"/>
-                <img data-u="thumb" src="img/f66v1503_4_5_tonemapped.jpg"/>
-            </div>
-            <div data-p="158.125" style="display: none;">
-                <img data-u="image" src="img/f66v1510.jpg"/>
-                <img data-u="thumb" src="img/f66v1510.jpg"/>
-            </div>
-            <div data-p="158.125" style="display: none;">
-                <img data-u="image" src="img/f66v1683.jpg"/>
-                <img data-u="thumb" src="img/f66v1683.jpg"/>
-            </div>
-            <div data-p="158.125" style="display: none;">
-                <img data-u="image" src="img/f66v1684.jpg"/>
-                <img data-u="thumb" src="img/f66v1684.jpg"/>
-            </div>
-            <div data-p="158.125" style="display: none;">
-                <img data-u="image" src="img/f66v1691_2_3_tonemapped.jpg"/>
-                <img data-u="thumb" src="img/f66v1691_2_3_tonemapped.jpg"/>
-            </div>
-        </div>
-        <!-- Thumbnail Navigator -->
-        <div data-u="thumbnavigator" class="jssort01"
-             style="position:absolute;left:0px;bottom:0px;width:800px;height:100px;" data-autocenter="1">
-            <!-- Thumbnail Item Skin Begin -->
-            <div data-u="slides" style="cursor: default;">
-                <div data-u="prototype" class="p">
-                    <div class="w">
-                        <div data-u="thumbnailtemplate" class="t"></div>
+                <div id="tn-1" class="thumbnails">
+                    <div>
+                        <img class="thumbnails1-img" src="Gallery/ka6ta%201/1.jpg"/>
+                        <img class="thumbnails1-img" src="Gallery/ka6ta%201/2.jpg"/>
+                        <img class="thumbnails1-img" src="Gallery/ka6ta%201/3.jpg"/>
+                        <img class="thumbnails1-img" src="Gallery/ka6ta%201/4.jpg"/>
                     </div>
-                    <div class="c"></div>
-                </div>
-            </div>
-            <!-- Thumbnail Item Skin End -->
-        </div>
-        <!-- Arrow Navigator -->
-        <span data-u="arrowleft" class="jssora05l" style="top:158px;left:8px;width:40px;height:40px;"></span>
-        <span data-u="arrowright" class="jssora05r" style="top:158px;right:8px;width:40px;height:40px;"></span>
-    </div>
-    <div id="jssor_2"
-         style="position: relative; margin: 0 auto; top: 0px; left: 0px; width: 800px; height: 550px; overflow: hidden; visibility: hidden; background-color: #24262e;">
-
-        <!-- Loading Screen -->
-        <div data-u="loading" style="position: absolute; top: 0px; left: 0px;">
-            <div style="filter: alpha(opacity=70); opacity: 0.7; position: absolute; display: block; top: 0px; left: 0px; width: 100%; height: 100%;"></div>
-            <div style="position:absolute;display:block;background:url('img/loading.gif') no-repeat center center;top:0px;left:0px;width:100%;height:100%;"></div>
-        </div>
-        <div data-u="slides"
-             style="cursor: default; position: relative; top: 0px; left: 0px; width: 800px; height: 465px; overflow: hidden;">
-            <div data-p="158.125">
-                <img data-u="image" src="img/dsc01933.jpg"/>
-                <img data-u="thumb" src="img/dsc01933.jpg"/>
-            </div>
-            <div data-p="158.125" style="display: none;">
-                <img data-u="image" src="img/dsc01936.jpg"/>
-                <img data-u="thumb" src="img/dsc01936.jpg"/>
-            </div>
-            <div data-p="158.125" style="display: none;">
-                <img data-u="image" src="img/f66v1481.jpg"/>
-                <img data-u="thumb" src="img/f66v1481.jpg"/>
-            </div>
-            <div data-p="158.125" style="display: none;">
-                <img data-u="image" src="img/f66v1483.jpg"/>
-                <img data-u="thumb" src="img/f66v1483.jpg"/>
-            </div>
-            <div data-p="759.0" style="display: none; background-color: rgba(255,255,255,0);">
-                <img data-u="image" src="img/f66v1490.jpg"/>
-                <img data-u="thumb" src="img/f66v1490.jpg"/>
-            </div>
-            <div data-p="158.125" style="display: none;">
-                <img data-u="image" src="img/f66v1687.jpg"/>
-                <img data-u="thumb" src="img/f66v1687.jpg"/>
-            </div>
-            <div data-p="158.125" style="display: none;">
-                <img data-u="image" src="img/f66v1688.jpg"/>
-                <img data-u="thumb" src="img/f66v1688.jpg"/>
-            </div>
-            <div data-p="158.125" style="display: none;">
-                <img data-u="image" src="img/f66v1496.jpg"/>
-                <img data-u="thumb" src="img/f66v1496.jpg"/>
-            </div>
-            <div data-p="158.125" style="display: none;">
-                <img data-u="image" src="img/f66v1498_1.jpg"/>
-                <img data-u="thumb" src="img/f66v1498_1.jpg"/>
-            </div>
-            <div data-p="158.125" style="display: none;">
-                <img data-u="image" src="img/f66v1503_4_5_tonemapped.jpg"/>
-                <img data-u="thumb" src="img/f66v1503_4_5_tonemapped.jpg"/>
-            </div>
-            <div data-p="158.125" style="display: none;">
-                <img data-u="image" src="img/f66v1510.jpg"/>
-                <img data-u="thumb" src="img/f66v1510.jpg"/>
-            </div>
-            <div data-p="158.125" style="display: none;">
-                <img data-u="image" src="img/f66v1683.jpg"/>
-                <img data-u="thumb" src="img/f66v1683.jpg"/>
-            </div>
-            <div data-p="158.125" style="display: none;">
-                <img data-u="image" src="img/f66v1684.jpg"/>
-                <img data-u="thumb" src="img/f66v1684.jpg"/>
-            </div>
-            <div data-p="158.125" style="display: none;">
-                <img data-u="image" src="img/f66v1691_2_3_tonemapped.jpg"/>
-                <img data-u="thumb" src="img/f66v1691_2_3_tonemapped.jpg"/>
-            </div>
-        </div>
-        <!-- Thumbnail Navigator -->
-        <div data-u="thumbnavigator" class="jssort01"
-             style="position:absolute;left:0px;bottom:0px;width:800px;height:100px;" data-autocenter="1">
-            <!-- Thumbnail Item Skin Begin -->
-            <div data-u="slides" style="cursor: default;">
-                <div data-u="prototype" class="p">
-                    <div class="w">
-                        <div data-u="thumbnailtemplate" class="t"></div>
+                    <div>
+                        <img class="thumbnails1-img" src="Gallery/ka6ta%201/5.JPG"/>
+                        <img class="thumbnails1-img" src="Gallery/ka6ta%201/6.JPG"/>
+                        <img class="thumbnails1-img" src="Gallery/ka6ta%201/7.JPG"/>
+                        <img class="thumbnails1-img" src="Gallery/ka6ta%201/8.JPG"/>
                     </div>
-                    <div class="c"></div>
                 </div>
             </div>
-            <!-- Thumbnail Item Skin End -->
+            <img id="house1-image" src="img/dsc01933.jpg"/>
         </div>
-        <!-- Arrow Navigator -->
-        <span data-u="arrowleft" class="jssora05l" style="top:158px;left:8px;width:40px;height:40px;"></span>
-        <span data-u="arrowright" class="jssora05r" style="top:158px;right:8px;width:40px;height:40px;"></span>
+        <div id="house2" class="house invisible">
+
+            <img id="house2-image" src="img/dsc01933.jpg"/>
+            <div class="houses-info">
+                <h1>Долната Къщичка</h1>
+                <hr/>
+                <p>"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cumque, eius, incidunt! Ab assumenda atque
+                    autem commodi earum explicabo hic itaque iure minus molestiae non, odit optio quasi rem tempore
+                    vel?"
+                </p>
+                <div id="tn-2" class="thumbnails">
+                    <div>
+                        <img class="thumbnails2-img" src="Gallery/ka6ta%202/1.jpg"/>
+                        <img class="thumbnails2-img" src="Gallery/ka6ta%202/2.JPG"/>
+                        <img class="thumbnails2-img" src="Gallery/ka6ta%202/3.jpg"/>
+                        <img class="thumbnails2-img" src="Gallery/ka6ta%202/4.jpg"/>
+                    </div>
+                    <div>
+                        <img class="thumbnails2-img" src="Gallery/ka6ta%202/5.jpg"/>
+                        <img class="thumbnails2-img" src="Gallery/ka6ta%202/6.jpg"/>
+                        <img class="thumbnails2-img" src="Gallery/ka6ta%202/7.jpg"/>
+                        <img class="thumbnails2-img" src="Gallery/ka6ta%202/8.JPG"/>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="houses-homescreen">
+            <h2>
+                Разгледайте нашите къщички
+            </h2>
+        </div>
     </div>
-
-
-
-    <img src="Gallery/bg.jpg" id="static-image"/>
-    <footer></footer>
 </div>
-
-
+<script src="gallery.js"></script>
 </body>
 </html>

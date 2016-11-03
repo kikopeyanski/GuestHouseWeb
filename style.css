@@ -122,6 +122,17 @@ nav.shrink ul li {
 #right-container {
     text-align: left;
 }
+.houses-link-gallery{
+    position: relative;
+    background-color: white;
+}
+.houses-link-gallery img{
+    display: inline-block;
+    width: 40%;
+    position: relative;
+    right: 0px;
+}
+
 
 #rooms button{
     display: inline-block;
@@ -133,61 +144,6 @@ nav.shrink ul li {
     border: 1px solid white;
     border-radius: 5px;
 }
-.house{
-    width: 100%;
-    background-color: whitesmoke;
-    color: black;
-    padding: 4vh 2vh;
-    height: 35vw;
-    min-height: 300px;
-    border-bottom: 1px solid forestgreen;
-}
-.houses-info{
-    display: inline-block;
-    width: 54%;
-    text-align: center;
-    height: 50%;
-}
-.houses-info hr {
-    height: 1px;
-    width: 80%;
-    border: 0;
-    border-top: 1px solid forestgreen;
-}
-.house img{
-    width: 44%;
-    height: auto;
-    display: inline-block;
-    border: 1px solid whitesmoke;
-    border-radius: 5px;
-    vertical-align: top;
-    max-height: 30vw;
-}
-.house p{
-    font-size: 1.33vw;
-    vertical-align: middle;
-    font-style: italic;
-    display: inline-block;
-    text-align: center;
-}
-.house h1{
-    font-size: 3vw;
-}
-.thumbnails{
-    display: inline-block;
-    text-align: center;
-    border: 1px solid ghostwhite;
-    vertical-align: baseline;
-    height: 50%;
-}
-.thumbnails img{
-    width: 15%;
-    height: 6vw;
-    display: inline-block;
-    border: 1px solid black;
-    border-radius: 0px;
-}
-
 #rooms {
     padding: 100px;
     background-color: whitesmoke;
