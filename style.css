@@ -1,4 +1,5 @@
 body {
+    height: 100%;
     padding: 0px;
     margin: 0px;
     background-color: #fff;
@@ -136,13 +137,15 @@ nav.shrink ul li {
     background-color: whitesmoke;
     color: black;
     padding: 4vh 2vh;
-    height: 100%;
+    height: 35vw;
+    min-height: 300px;
+    border-bottom: 1px solid forestgreen;
 }
 .houses-info{
     display: inline-block;
     width: 54%;
     text-align: center;
-    height:100%;
+    height: 50%;
 }
 .houses-info hr {
     height: 1px;
@@ -157,6 +160,7 @@ nav.shrink ul li {
     border: 1px solid whitesmoke;
     border-radius: 5px;
     vertical-align: top;
+    max-height: 30vw;
 }
 .house p{
     font-size: 1.33vw;
@@ -165,20 +169,22 @@ nav.shrink ul li {
     display: inline-block;
     text-align: center;
 }
-
+.house h1{
+    font-size: 3vw;
+}
 .thumbnails{
     display: inline-block;
     text-align: center;
-    background-color: black;
     border: 1px solid ghostwhite;
-    border-radius: 5px;
     vertical-align: baseline;
     height: 50%;
 }
 .thumbnails img{
     width: 15%;
+    height: 6vw;
     display: inline-block;
-    border: none;
+    border: 1px solid black;
+    border-radius: 0px;
 }
 
 #rooms {
