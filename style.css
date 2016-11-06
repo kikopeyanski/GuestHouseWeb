@@ -123,14 +123,37 @@ nav.shrink ul li {
     text-align: left;
 }
 .houses-link-gallery{
+    width: 100%;
+    height: auto;
     position: relative;
-    background-color: white;
+
+}
+.houses-link-gallery button{
+    display: inline-block;
+    width: 20%;
+    height: 20%;
+    border: 1px solid forestgreen;
+    border-radius: 5px;
+    position: absolute;
+    bottom: 3em;
+    left: 10em;
+}
+.houses-link-gallery button:hover{
+    background-color: forestgreen;
+}
+.houses-link-gallery button:hover > a{
+    color: white;
+}
+.houses-link-gallery a{
+
+    font-size: 2vw;
+    text-decoration: none;
+    color: forestgreen;
 }
 .houses-link-gallery img{
+    width: 100%;
     display: inline-block;
-    width: 40%;
-    position: relative;
-    right: 0px;
+    z-index:-1;
 }
 
 
