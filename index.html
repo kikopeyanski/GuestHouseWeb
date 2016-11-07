@@ -16,16 +16,15 @@
 <body>
 <div id="container">
     <nav class="navbar navbar-fixed-top" role="navigation">
-
         <div class="navbar navbar-header" id="navbar-header">
-            <a class="navbar-brand" href="#">Guest House Tarpovi</a>
+            <img src="Gallery/logo_tarpovi.png"/>
+            <button>Резервирай</button>
         </div>
         <div class="navbar-body">
-            <ul class="nav navbar-nav" id="nav-menu">
+            <ul class="nav " id="nav-menu">
                 <li class="active"><a href="#">Начало <span class="sr-only">(current)</span></a></li>
                 <li><a href="#">Удобства</a></li>
                 <li><a href="#">Галерия</a></li>
-                <li><a href="#">Обзавеждане</a></li>
                 <li><a href="#">Карта</a></li>
                 <li><a href="#">Цени и контакти</a></li>
             </ul>
@@ -42,10 +41,10 @@
              style="cursor: default; position: relative; top: 0px; left: 0px; width: 1000px; height: 500px; overflow: hidden;">
             <div data-p="600.0" style="background-color: rgba(0,0,0,0.5);">
                 <img data-u="image" src="img/second.jpg"/>
-                <div style="position: absolute; top: 182px; left: 293px; width: 540px; height: 120px; font-family: Century Gothic; font-size: 50px; color: #ffffff; line-height: 60px;">
-                    Tarpovi Guest House
+                <div  style="text-shadow: 2px 2px black; position: absolute; top: 182px; left: 293px; width: 540px; height: 120px; font-family: Century Gothic; font-size: 50px; color: #ffffff; line-height: 60px;">
+                    Къща за гости Търпови
                     <br/>
-                    <h5 style="text-align: right">"...Най-доброто място за отдих"</h5>
+                    <h5 style="text-align: right">"...Най-доброто място за отдих!"</h5>
                 </div>
             </div>
             <div data-p="600.0" style="display: none;">
@@ -97,48 +96,57 @@
         </div>
     </div>
 
-    <div id="jssor_2" style="position: relative; margin: 0 auto; top: 0px; left: 0px; width: 800px; height: 550px; overflow: hidden; visibility: hidden; background-color: rgba(36,38,46,0);">
+    <div class="houses-link-gallery">
+        <img class="text-image" src="Gallery/Text.png">
+        <img src="Gallery/div-background.png"/>
+        <button><a href="gallery.html">към Къщите</a></button>
+    </div>
+
+    <div id="jssor_2"
+         style="position: relative; margin: 0 auto; top: 0px; left: 0px; width: 800px; height: 550px; overflow: hidden; visibility: hidden; background-color: rgba(36,38,46,0);">
         <!-- Loading Screen -->
         <div data-u="loading" style="position: absolute; top: 0px; left: 0px;">
             <div style="filter: alpha(opacity=70); opacity: 0.7; position: absolute; display: block; top: 0px; left: 0px; width: 100%; height: 100%;"></div>
             <div style="position:absolute;display:block;background:url('img/loading.gif') no-repeat center center;top:0px;left:0px;width:100%;height:100%;"></div>
         </div>
-        <div data-u="slides" style="cursor: default; position: relative; top: 0px; left: 0px; width: 800px; height: 465px; overflow: hidden;">
+        <div data-u="slides"
+             style="cursor: default; position: relative; top: 0px; left: 0px; width: 800px; height: 465px; overflow: hidden;">
             <div data-p="158.125">
-                <img data-u="image" src="img/6.jpg" />
-                <img data-u="thumb" src="img/6_tn.jpg" />
+                <img data-u="image" src="img/6.jpg"/>
+                <img data-u="thumb" src="img/6_tn.jpg"/>
             </div>
             <div data-p="158.125" style="display: none;">
-                <img data-u="image" src="img/2.jpg" />
-                <img data-u="thumb" src="img/2_tn.jpg" />
+                <img data-u="image" src="img/2.jpg"/>
+                <img data-u="thumb" src="img/2_tn.jpg"/>
             </div>
             <div data-p="158.125" style="display: none;">
-                <img data-u="image" src="img/3.jpg" />
-                <img data-u="thumb" src="img/3_tn.jpg" />
+                <img data-u="image" src="img/3.jpg"/>
+                <img data-u="thumb" src="img/3_tn.jpg"/>
             </div>
             <div data-p="158.125" style="display: none;">
-                <img data-u="image" src="img/4.jpg" />
-                <img data-u="thumb" src="img/4_tn.jpg" />
+                <img data-u="image" src="img/4.jpg"/>
+                <img data-u="thumb" src="img/4_tn.jpg"/>
             </div>
             <div data-p="158.125" style="display: none;">
-                <img data-u="image" src="img/5.jpg" />
-                <img data-u="thumb" src="img/5_tn.jpg" />
+                <img data-u="image" src="img/5.jpg"/>
+                <img data-u="thumb" src="img/5_tn.jpg"/>
             </div>
             <div data-p="158.125" style="display: none;">
-                <img data-u="image" src="img/7.jpg" />
-                <img data-u="thumb" src="img/7_tn.jpg" />
+                <img data-u="image" src="img/7.jpg"/>
+                <img data-u="thumb" src="img/7_tn.jpg"/>
             </div>
             <div data-p="158.125" style="display: none;">
-                <img data-u="image" src="img/8.jpg" />
-                <img data-u="thumb" src="img/8_tn.jpg" />
+                <img data-u="image" src="img/8.jpg"/>
+                <img data-u="thumb" src="img/8_tn.jpg"/>
             </div>
             <div data-p="158.125" style="display: none;">
-                <img data-u="image" src="img/9.jpg" />
-                <img data-u="thumb" src="img/9_tn.jpg" />
+                <img data-u="image" src="img/9.jpg"/>
+                <img data-u="thumb" src="img/9_tn.jpg"/>
             </div>
         </div>
         <!-- Thumbnail Navigator -->
-        <div data-u="thumbnavigator" class="jssort01-75-75" style="position:absolute;left:0px;bottom:0px;width:800px;height:85px;" data-autocenter="1">
+        <div data-u="thumbnavigator" class="jssort01-75-75"
+             style="position:absolute;left:0px;bottom:0px;width:800px;height:85px;" data-autocenter="1">
             <div style="position: absolute; top: 0; left: 0; width: 100%; height:100%; background-color: #000; filter:alpha(opacity=30.0); opacity:0.3;"></div>
             <!-- Thumbnail Item Skin Begin -->
             <div data-u="slides" style="cursor: default;">
@@ -152,36 +160,12 @@
             <!-- Thumbnail Item Skin End -->
         </div>
         <!-- Arrow Navigator -->
-        <span data-u="arrowleft" class="jssora02l" style="top:0px;left:8px;width:55px;height:55px;" data-autocenter="2"></span>
-        <span data-u="arrowright" class="jssora02r" style="top:0px;right:8px;width:55px;height:55px;" data-autocenter="2"></span>
+        <span data-u="arrowleft" class="jssora02l" style="top:0px;left:8px;width:55px;height:55px;"
+              data-autocenter="2"></span>
+        <span data-u="arrowright" class="jssora02r" style="top:0px;right:8px;width:55px;height:55px;"
+              data-autocenter="2"></span>
     </div>
-  <div class="houses-link-gallery">
-      <img src="Gallery/div-background.png"/>
-      <button><a href="gallery.html" >към Къщите</a> </button>
-  </div>
 
-    <div id="rooms">
-        <h1>Нашето Обзавеждане</h1>
-        <div class="rooms-info-list">
-            <ul class="rooms-info-list-left">
-                <li class="rooms-info-content"><img src="Icons/tv.png">Телевизор</li>
-                <li class="rooms-info-content"><img src="Icons/ac.png">Климатик</li>
-                <li class="rooms-info-content"><img src="Icons/wifi.png">Интернет</li>
-                <li class="rooms-info-content"><img src="Icons/fridge.png">Хладилник</li>
-            </ul>
-            <ul class="rooms-info-list-right">
-                <li class="rooms-info-content"><img src="Icons/dry.png">Сушилня</li>
-                <li class="rooms-info-content"><img src="Icons/toilet.png">Тоалетна</li>
-                <li class="rooms-info-content"><img src="Icons/shower.png">Душ</li>
-                <li class="rooms-info-content"><img src="Icons/terace.png">Тераса</li>
-            </ul>
-        </div>
-        <div class="rooms-info-list">
-            <div id="rooms-more-info">
-
-            </div>
-        </div>
-    </div>
     <div id="map">
         <iframe width="100%" height="450" frameborder="0" style="border:0"
                 src="https://www.google.com/maps/embed/v1/place?q=place_id:ChIJ2dFm75TdqhQRtTs3oADQTzw&key=AIzaSyCzb360GJZ94Y8W_jc6ZOyF7X3UKN2rRMI"
@@ -190,32 +174,26 @@
     <div id="price-and-contacts">
 
         <div id="price" class="price-contacts-field">
-            <h2>Price</h2>
+            <h2>Цени</h2>
             <table class="table">
                 <thead>
                 <tr>
                     <th>
-                        Стая<!-- Стая --> №
+                        Къща<!-- Стая -->:
                     </th>
                     <th>
-                        Статус<!-- Статус -->
+                        Цена Силен Сезон<!-- Цена Делник -->
                     </th>
                     <th>
-                        Цена делник<!-- Цена Делник -->
-                    </th>
-                    <th>
-                        Цена уикенд<!-- Цена уикенд -->
+                        Цена Слаб Сезон<!-- Цена уикенд -->
                     </th>
                 </tr>
                 </thead>
                 <tbody>
                 <tr>
                     <td>
-                        1
+                        Горна Къща
                     </td>
-                    <td>
-                        ЗАЕТА<br>
-                        <span style="font-size: 10px;">( до 21:00 часа на 01-08-2016 )</span></td>
                     <td>
                         40 лева
                     </td>
@@ -225,11 +203,9 @@
                 </tr>
                 <tr>
                     <td>
-                        2
+                        Долна Къща
                     </td>
-                    <td>
-                        ЗАЕТА<br>
-                        <span style="font-size: 10px;">( до 21:00 часа на 01-08-2016 )</span></td>
+
                     <td>
                         40 лева
                     </td>
@@ -249,16 +225,15 @@
 
             <p><img src="Icons/location.png"><strong>E-mail:</strong>jastafrasta@abv.bg</p>
 
-            <h2>Reservation</h2>
-            <p><img src="Icons/clock.png"> From Monday to Friday</p>
-            <p><img src="Icons/clock.png"> From Monday to Friday</p>
+            <h2>За Резервация</h2>
+            <p><img src="Icons/clock.png"> Всеки Ден от 06:00 - 22:00 </p>
 
             <button href="/#">Обши условия</button>
         </div>
     </div>
     <footer></footer>
+    <img src="Gallery/bg.jpg" id="static-image"/>
 </div>
-
 
 <script src="app.js"></script>
 </body>
