@@ -5,14 +5,22 @@ $(window).scroll(function () {
         $('nav').removeClass('shrink');
     }
 });
-var pos = $("#jssor_2").offset();
-$("#static-image").offset({top: pos.top, left: 0});
 
 $('#map').on('click', function () {
     $('#map iframe').css("pointer-events", "auto");
-    console.log("click")
 });
 
 $('#map').on('mouseleave', function () {
     $('#map iframe').css("pointer-events", "none");
+});
+$('#open-terms').on('click',function () {
+        $('#general-terms').css('display','inline');
+});
+
+$("#open-terms").click(function(event) {
+    $('#general-terms').css('display','inline');
+    event.stopPropagation();
+});
+$(document).click(function() {
+    $('#general-terms').css('display','none');
 });
