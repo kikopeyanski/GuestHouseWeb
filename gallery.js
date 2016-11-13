@@ -4,6 +4,7 @@ $('#house1-button').on("click", function () {
     $('#house2-button').removeClass("selected");
     $('#house1').removeClass("invisible");
     $('#house2').addClass("invisible");
+    $('.house-selection').css('background-image','url("Gallery/left-selected.png")');
 });
 $('#house2-button').on("click", function () {
     $('.houses-homescreen').addClass("invisible");
@@ -11,6 +12,7 @@ $('#house2-button').on("click", function () {
     $('#house1-button').removeClass("selected");
     $('#house2').removeClass("invisible");
     $('#house1').addClass("invisible");
+    $('.house-selection').css('background-image','url("Gallery/right-selected.png")');
 });
 $(".thumbnails1-img").on("click",function() {
     var src = $(this).attr("src");
