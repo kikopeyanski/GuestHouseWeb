@@ -253,6 +253,19 @@ nav.shrink button {
     background: url("Gallery/background-image-blur.png") no-repeat;
     background-size: 100%;
 }
+#contact-form{
+    display: inline-block;
+    top: 50px;
+    max-height: 100%;
+    z-index: +2;
+    width: 100%;
+    align-content: center;
+    background-color: rgba(0,0,0,0.5);
+    padding-bottom: 20px;
+}
+.contactForm{
+width: 50%;
+}
 .terms-text{
     overflow-y: scroll;
     width: 60%;
@@ -278,7 +291,7 @@ nav.shrink button {
     background-color: rgba(0,0,0,0.5);
     padding-bottom: 20px;
 }
-#open-terms{
+.connection-button{
     background-color: white;
     color: dodgerblue;
     border: 1px solid dodgerblue;
@@ -286,7 +299,7 @@ nav.shrink button {
     padding: 0.5vw 1vw ;
     margin: 1vw 1vw 1vw 0;
 }
-#open-terms:hover{
+.connection-button:hover{
     background-color: dodgerblue;
     color: white;
 }
@@ -298,6 +311,66 @@ footer {
 
 a {
     color: white;
+}
+
+.contactForm input {
+    border: none;
+    display: block;
+    margin: 0 0 21px 36px;
+    background-color: #eee;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    color: #333;
+    font-size: 14px;
+    padding: 14px;
+    width: 80%;
+    outline: none;
+    -webkit-box-shadow: 0px 1px 1px 1px rgba(0,0,0,0.15);
+    -moz-box-shadow: 0px 1px 1px 1px rgba(0,0,0,0.15);
+    box-shadow: 0px 1px 1px 1px rgba(0,0,0,0.15);
+}
+
+.contactForm input:last-of-type {
+    margin-bottom: 0px;
+}
+
+.contactForm textarea {
+    border: none;
+    display: block;
+    margin: 0 0 21px 36px;
+    background-color: #eee;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    color: #333;
+    font-size: 14px;
+    padding: 14px;
+    width: 100%;
+    outline: none;
+    height: 150px;
+    -webkit-box-shadow: 0px 1px 1px 1px rgba(0,0,0,0.15);
+    -moz-box-shadow: 0px 1px 1px 1px rgba(0,0,0,0.15);
+    box-shadow: 0px 1px 1px 1px rgba(0,0,0,0.15);
+    resize: none;
+}
+
+.contactForm form {
+    margin: 55px 0;
+}
+
+.contactForm input[type="submit"] {
+    background-color: #EA3833;
+    box-shadow: none;
+    width: 100px;
+    color: #fff;
+    transition: 0.2s all;
+    -webkit-transition: 0.2s all;
+    -moz-transition: 0.2s all;
+}
+
+.contactForm input[type="submit"]:hover {
+    opacity: 0.9;
 }
 
 

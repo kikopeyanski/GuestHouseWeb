@@ -24,3 +24,7 @@ $("#open-terms").click(function(event) {
 $(document).click(function() {
     $('#general-terms').css('display','none');
 });
+$("#open-contact-form").click(function () {
+    $("#contact-form").css('display','inline');
+});
+$('.datepicker').datepicker()
