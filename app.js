@@ -27,4 +27,7 @@ $(document).click(function() {
 $("#open-contact-form").click(function () {
     $("#contact-form").css('display','inline');
 });
-$('.datepicker').datepicker()
+$('.form-control').datepicker({
+    format: "dd/mm/yyyy",
+    language: "bg"
+});

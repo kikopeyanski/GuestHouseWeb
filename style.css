@@ -66,7 +66,7 @@ nav.navbar li :hover {
 nav.navbar li a {
     color: black;
     padding-left: 0;
-    padding-right:  0;
+    padding-right: 0;
 }
 
 nav.shrink {
@@ -130,7 +130,6 @@ nav.shrink button {
     padding-bottom: 20px;
 }
 
-
 #info img {
     width: 250px;
     height: 250px;
@@ -163,12 +162,12 @@ nav.shrink button {
 .houses-link-gallery {
     width: 100%;
     height: auto;
-    position: relative;/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#ffffff+0,e5e5e5+100;White+3D */
-    background: rgb(255,255,255); /* Old browsers */
-    background: -moz-linear-gradient(top,  rgba(255,255,255,1) 0%, rgba(229,229,229,1) 100%); /* FF3.6-15 */
-    background: -webkit-linear-gradient(top,  rgba(255,255,255,1) 0%,rgba(229,229,229,1) 100%); /* Chrome10-25,Safari5.1-6 */
-    background: linear-gradient(to bottom,  rgba(255,255,255,1) 0%,rgba(229,229,229,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#e5e5e5',GradientType=0 ); /* IE6-9 */
+    position: relative; /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#ffffff+0,e5e5e5+100;White+3D */
+    background: rgb(255, 255, 255); /* Old browsers */
+    background: -moz-linear-gradient(top, rgba(255, 255, 255, 1) 0%, rgba(229, 229, 229, 1) 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(top, rgba(255, 255, 255, 1) 0%, rgba(229, 229, 229, 1) 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to bottom, rgba(255, 255, 255, 1) 0%, rgba(229, 229, 229, 1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffffff', endColorstr='#e5e5e5', GradientType=0); /* IE6-9 */
 
 }
 
@@ -181,6 +180,7 @@ nav.shrink button {
     position: absolute;
     bottom: 5em;
     left: 5vw;
+    padding: 0;
 }
 
 .houses-link-gallery button:hover {
@@ -192,7 +192,8 @@ nav.shrink button {
 }
 
 .houses-link-gallery a {
-
+    display: inline-block;
+    padding: 13% 19%;
     font-size: 2vw;
     text-decoration: none;
     color: forestgreen;
@@ -203,10 +204,11 @@ nav.shrink button {
     display: inline-block;
     z-index: -1;
 }
-.text-image{
+
+.text-image {
     z-index: +1 !important;
     display: block !important;
-    width: 40%!important;
+    width: 40% !important;
     height: auto;
     position: absolute;
     top: 7em;
@@ -224,11 +226,11 @@ nav.shrink button {
     border-radius: 5px;
 }
 
-#map{
+#map {
     background-color: white;
 }
 
-#map iframe{
+#map iframe {
     pointer-events: none;
 }
 
@@ -249,24 +251,27 @@ nav.shrink button {
     width: 20px;
 }
 
-#jssor_2{
+#jssor_2 {
     background: url("Gallery/background-image-blur.png") no-repeat;
     background-size: 100%;
 }
-#contact-form{
+
+#contact-form {
     display: inline-block;
     top: 50px;
     max-height: 100%;
     z-index: +2;
     width: 100%;
     align-content: center;
-    background-color: rgba(0,0,0,0.5);
+    background-color: rgba(0, 0, 0, 0.5);
     padding-bottom: 20px;
 }
-.contactForm{
-width: 50%;
+
+.contactForm {
+    width: 50%;
 }
-.terms-text{
+
+.terms-text {
     overflow-y: scroll;
     width: 60%;
     margin: 0 auto;
@@ -279,7 +284,8 @@ width: 50%;
     border-radius: 5px;;
 
 }
-#general-terms{
+
+#general-terms {
     display: none;
     overflow-y: scroll;
     position: fixed;
@@ -288,18 +294,20 @@ width: 50%;
     z-index: +2;
     width: 100%;
     align-content: center;
-    background-color: rgba(0,0,0,0.5);
+    background-color: rgba(0, 0, 0, 0.5);
     padding-bottom: 20px;
 }
-.connection-button{
+
+.connection-button {
     background-color: white;
     color: dodgerblue;
     border: 1px solid dodgerblue;
     border-radius: 5px;
-    padding: 0.5vw 1vw ;
+    padding: 0.5vw 1vw;
     margin: 1vw 1vw 1vw 0;
 }
-.connection-button:hover{
+
+.connection-button:hover {
     background-color: dodgerblue;
     color: white;
 }
@@ -326,9 +334,9 @@ a {
     padding: 14px;
     width: 80%;
     outline: none;
-    -webkit-box-shadow: 0px 1px 1px 1px rgba(0,0,0,0.15);
-    -moz-box-shadow: 0px 1px 1px 1px rgba(0,0,0,0.15);
-    box-shadow: 0px 1px 1px 1px rgba(0,0,0,0.15);
+    -webkit-box-shadow: 0px 1px 1px 1px rgba(0, 0, 0, 0.15);
+    -moz-box-shadow: 0px 1px 1px 1px rgba(0, 0, 0, 0.15);
+    box-shadow: 0px 1px 1px 1px rgba(0, 0, 0, 0.15);
 }
 
 .contactForm input:last-of-type {
@@ -349,9 +357,9 @@ a {
     width: 100%;
     outline: none;
     height: 150px;
-    -webkit-box-shadow: 0px 1px 1px 1px rgba(0,0,0,0.15);
-    -moz-box-shadow: 0px 1px 1px 1px rgba(0,0,0,0.15);
-    box-shadow: 0px 1px 1px 1px rgba(0,0,0,0.15);
+    -webkit-box-shadow: 0px 1px 1px 1px rgba(0, 0, 0, 0.15);
+    -moz-box-shadow: 0px 1px 1px 1px rgba(0, 0, 0, 0.15);
+    box-shadow: 0px 1px 1px 1px rgba(0, 0, 0, 0.15);
     resize: none;
 }
 
@@ -371,6 +379,11 @@ a {
 
 .contactForm input[type="submit"]:hover {
     opacity: 0.9;
+}
+
+.form-control {
+    display: inline-block; !important;
+    width: 30%; !important;
 }
 
 
