@@ -2,12 +2,15 @@ body {
     height: 100%;
     padding: 0px;
     margin: 0px;
-    background-color: #fff;
-    font-family: helvetica, arial, verdana, sans-serif
+    background-image: url("test.png");
+    font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
 }
 
 #container {
     font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
+    width: 80%;
+    margin: auto;
+    background-image: url("paisley.png");
 }
 
 #nav-menu {
@@ -53,14 +56,16 @@ nav.navbar li :hover {
 .navbar-body ul {
     display: inline-block;
     height: 100%;
-    width: 80%;
+    width: 100%;
+    padding-right: 20px;
 }
 
 .navbar-body ul li {
     text-align: center;
     display: inline-block;
-    width: 19%;
+    width: 15%;
     vertical-align: middle;
+    border-left: 1px solid rgba(193,193,193,0.5);
 }
 
 nav.navbar li a {
@@ -193,7 +198,7 @@ nav.shrink button {
 
 .houses-link-gallery a {
     display: inline-block;
-    padding: 13% 19%;
+    padding: 12% 10%;
     font-size: 2vw;
     text-decoration: none;
     color: forestgreen;
@@ -246,20 +251,20 @@ nav.shrink button {
     vertical-align: top;
     width: 49%;
 }
-
-#contacts img {
-    width: 20px;
+#contacts {
+    font-size: 1vw;
 }
 
-#jssor_2 {
-    background: url("Gallery/background-image-blur.png") no-repeat;
-    background-size: 100%;
+#contacts img {
+    width: 25px;
 }
 
 #contact-form {
-    display: inline-block;
+    display: none;
     top: 50px;
     max-height: 100%;
+/ / Animation -webkit-transition: all 0.4 s ease;
+    transition: all 0.4s ease;
     z-index: +2;
     width: 100%;
     align-content: center;
@@ -267,9 +272,6 @@ nav.shrink button {
     padding-bottom: 20px;
 }
 
-.contactForm {
-    width: 50%;
-}
 
 .terms-text {
     overflow-y: scroll;
@@ -319,6 +321,10 @@ footer {
 
 a {
     color: white;
+}
+
+.contactForm {
+    width: 80%;
 }
 
 .contactForm input {
@@ -381,9 +387,26 @@ a {
     opacity: 0.9;
 }
 
-.form-control {
+.contactForm input[class="form-control-date"] {
     display: inline-block; !important;
-    width: 30%; !important;
+    width: 35%; !important;
+}
+@media only screen and (max-width: 1200px) {
+    #container{
+        width: 100%;
+    }
+    nav.shrink button{
+        font-size: 3vw;
+    }
+    .navbar-body ul li{
+        font-size: 2vw;
+    }
+    nav.shrink ul li{
+        font-size:2vw;
+    }
+    #navbar-header {
+        margin-top: 10px;
+    }
 }
 
 

@@ -2,9 +2,9 @@ body {
     height: 100%;
     padding: 0px;
     margin: 0px;
-    background-color: #fff;
-    font-family: helvetica, arial, verdana, sans-serif;
+    font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
     text-align: center;
+    background-image: url("test.png");
 }
 button:focus {outline:0;}
 #main-text {
@@ -23,6 +23,9 @@ button:focus {outline:0;}
 #container {
     font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
     text-align: center;
+    width: 80%;
+    margin:auto;
+    background-color: white;
 }
 .invisible{
     display: none;
@@ -30,17 +33,24 @@ button:focus {outline:0;}
 .navigation{
     width: 100%;
     text-align: center;
-    background-color: darkgray;
+    background-color: rgba(255, 255, 255, 1);
     color: white;
     position: relative;
+    padding: 20px;
 }
-.navigation a img{
-    width: 2vw;
-    height: auto;
+.navigation a button{
+    width: 10vw;
+    height: 50px;
     display: inline-block;
     position: absolute;
-    left: 5px;
-    top:40%;
+    left: 40px;
+    top:25%;
+    margin: auto;
+    background-color: forestgreen;
+    border: 1px solid white;
+    border-radius: 5px;
+    color: white;
+    font-size: 16px;
 }
 .navigation img{
     width: 10%;
@@ -48,6 +58,17 @@ button:focus {outline:0;}
 }
 .navigation h1{
     display: inline-block;
+}
+.navigation p {
+    font-size: 1vw;
+    display: inline-block;
+    position: absolute;
+    right: 30px;
+    top:25%;
+    color: black;
+}
+.navigation p img{
+    width: 20px;
 }
 .house-selection {
     width: 100%;
@@ -59,8 +80,8 @@ button:focus {outline:0;}
     transition: background-image 0.2s ease-in-out;
     background-repeat: no-repeat;
     background-size: 100%;
-    margin:20px 0;
     font-size: 2vw;
+    border-bottom: 1px solid forestgreen;
 }
 .house-selection button{
     display: inline-block;
@@ -140,7 +161,7 @@ button:focus {outline:0;}
     border-radius: 0px;
 }
 #rooms {
-    padding: 100px;
+    padding-top: 50px;
     background-color: whitesmoke;
     text-align: center;
 }
@@ -148,6 +169,7 @@ button:focus {outline:0;}
 .rooms-info-list {
     text-align: center;
     display: inline-block;
+    margin-top: 50px;
 }
 
 .rooms-info-list ul {
