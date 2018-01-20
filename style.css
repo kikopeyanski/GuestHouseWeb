@@ -3,11 +3,11 @@ body {
     padding: 0px;
     margin: 0px;
     background-image: url("test.png");
-    font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
+    /*font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;*/
 }
 
 #container {
-    font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
+    /*font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;*/
     width: 80%;
     margin: auto;
     background-image: url("paisley.png");
@@ -30,7 +30,7 @@ body {
 
 nav.navbar {
     background-color: rgba(255, 255, 255, 1);
-/ / Animation -webkit-transition: all 0.4 s ease;
+    animation -webkit-transition: all 0.4 s ease;
     transition: all 0.4s ease;
     text-align: right;
     font-size: 1.7vw;
